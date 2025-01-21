@@ -1,0 +1,107 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 5px 0;
+}
+
+header p, header a {
+    margin: 5px 0;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styling */
+.section {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    color: #000000;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+}
+
+/* Two-Column Layout */
+.two-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.two-column div,
+.two-column ul {
+    width: 48%;
+}
+
+.two-column ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
+
+/* Table Styling for Technical Skills */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+td:first-child {
+    font-weight: bold;
+    width: 30%;
+}
+
+/* List Styling */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background: #000000;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}

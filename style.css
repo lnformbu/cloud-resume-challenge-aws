@@ -8,6 +8,7 @@ body {
     line-height: 1.6;
 }
 
+
 /* Header Styling */
 header {
     background-color: #000000;
@@ -104,4 +105,24 @@ footer {
 footer a {
     color: white;
     text-decoration: underline;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .section {
+    background-color: #1e1e1e;
+    border-color: #ffffff;
+}
+
+.dark-mode-toggle {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #000;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
 }
